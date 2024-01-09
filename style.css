@@ -114,6 +114,7 @@ nav img {
 #two-btns a:hover {
     background-color: white;
     color: black;
+    text-shadow: none;
 }
 
 hr {
