@@ -129,7 +129,7 @@ hr {
     color: rgb(45, 45, 45);
 }
 #services-section h2 {
-    font-weight: 300;
+    font-weight: 400;
 }
 #prices {
     width: 100%;
@@ -604,6 +604,15 @@ h4 {
     #main-advert h1 {
         font-size: 20px;
     }
+    #services-section {
+        padding: 20px;
+    }
+    #services-section h2 {
+        font-size: 20px;
+    }
+    .indiv-price p {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 460px) {
     .hide-small {
@@ -617,26 +626,12 @@ h4 {
         margin-left: 0;
         font-size: 12px;
     } 
-    #services-section {
-        padding: 30px;
-    }
-    #services-section h2 {
-        font-size: 12px;
-    }
-    .indiv-price p {
-        font-size: 8px;
-    }
     .pictures {
         height: 250px;
     }
     .pictures img {
         height: 78%;
     }
-}
-@media screen and (max-width: 450px) {
-    /* #main-sec {
-        height: 200px;
-    } */
 }
 @media screen and (max-width: 400px) {
     #main-sec {
