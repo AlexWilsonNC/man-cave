@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(20, 20, 21);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto';
+    /* scroll-behavior: smooth; */
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(14, 14, 14);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+nav img {
+    width: 110px;
+    height: auto;
+}
+.nav-a {
+    margin: 45px 13px 0 13px;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(162, 162, 162);
+    
+    display: inline-block;
+    padding-bottom: 45px;
+    background-image: linear-gradient(rgb(240, 240, 240) 0 0);
+    background-position: 0 100%;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    transition:
+      background-size 0.3s,
+      background-position 0s 0.3s;
+}
+.nav-a:hover {
+    color: rgb(240, 240, 240);
+    background-position: 100% 100%;
+    background-size: 100% 2px;  
+}
+.nav-a img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 50px;
+    opacity: 0.7;
+}
+#book {
+    background-color: rgb(240, 240, 240);
+    color: black !important;
+    padding: 7px 12px;
+    font-weight: 400;
+    border-radius: 1px;
+    margin-left: 15px;
+    text-decoration: none;
+
+    background: linear-gradient(to left, rgb(240, 240, 240) 50%, rgb(29, 46, 118) 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+} 
+#book:hover {
+    background-position: left;
+    color: rgb(240, 240, 240) !important;
+    cursor: pointer;
+} 
+
+.eighty {
+    width: 80%;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-sec {
+    height: 800px;
+    margin-top: 5px;
+    background-image: url("./assets/fade.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 26px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-advert {
+    color: rgb(255, 255, 255);
+    margin: 250px 0 0 900px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#main-advert h1 {
+    margin-bottom: -10px;
+}
+#two-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+#two-btns a {
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-out;
+}
+#two-btns a:hover {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    border-bottom: 0.1px solid rgb(193, 193, 193);
+    margin-top: -15px;
+    width: 100%;
+}
+
+#services-section {
+    background-color: rgb(200, 200, 200);
+    width:100%;
+    padding: 50px 300px;
+    color: rgb(45, 45, 45);
+}
+#services-section h2 {
+    font-weight: 300;
+}
+#prices {
+    width: 100%;
+}
+.indiv-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.indiv-price p {
+    font-weight: 300;
+}
+
+.pictures {
+    width: 100%;
+    height: 500px;
+}
+
+#barber-section {
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    text-align: center;
+    color: rgb(45, 45, 45);
+}
+#barber-section h3 {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 50px 0;
+}
+#barbers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.barber-person p {
+    font-size: 30px;
+}
+.story {
+    font-size: 18px !important;
+}
