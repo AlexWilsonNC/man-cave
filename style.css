@@ -43,13 +43,6 @@ nav img {
     background-position: 100% 100%;
     background-size: 100% 2px;  
 }
-.nav-a img {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    margin-left: 50px;
-    opacity: 0.7;
-}
 #book {
     background-color: rgb(240, 240, 240);
     color: black !important;
@@ -152,13 +145,23 @@ hr {
 .pictures {
     width: 100%;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
+.pictures img {
+    opacity: 0.9;
+    height: 95%;
+}
+
 
 #barber-section {
     background-color: rgb(200, 200, 200);
     width: 100%;
     text-align: center;
     color: rgb(45, 45, 45);
+    padding-bottom: 50px;
 }
 #barber-section h3 {
     font-size: 24px;
@@ -174,9 +177,494 @@ hr {
     margin: 0 auto;
     margin-top: -50px;
 }
+.barber-person {
+    transition: 0.3s ease-out;
+}
+.barber-person:hover {
+    transform: scale(1.1);
+}
 .barber-person p {
     font-size: 30px;
 }
+.barber-person img {
+    height: 400px;
+}
 .story {
     font-size: 18px !important;
+    font-style: italic;
+}
+.story2 {
+    font-size: 14px !important;
+    text-align: center;
+    max-width: 350px;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.llc {
+    color:rgb(200, 200, 200);
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color:rgb(200, 200, 200);
+}
+.contact {
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -20px; 
+}
+.contact i {
+    margin-right: 15px;
+}
+footer iframe {
+    height: 430px;
+    margin: 50px 0;
+    border: 5px solid grey;
+}
+h4 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1850px) {
+    #main-sec {
+        height: 780px;
+    }
+}
+@media screen and (max-width: 1750px) {
+    #main-sec {
+        height: 720px;
+    }
+}
+@media screen and (max-width: 1650px) {
+    #main-sec {
+        height: 680px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    #main-sec {
+        height: 650px;
+    }
+}
+@media screen and (max-width: 1450px) {
+    #main-sec {
+        height: 610px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #main-sec {
+        height: 570px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    #main-sec {
+        height: 520px;
+    }
+    footer {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    #main-sec {
+        height: 480px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    #main-sec {
+        height: 400px;
+    }
+    footer iframe {
+        height: 350px;
+        border: 3px solid grey;
+    }
+    .contact {
+        font-size: 18px;
+        margin-top: -1px; 
+    }
+    .contact i {
+        margin-right: 15px;
+    }
+    footer div p {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .llc {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 950px) {
+    #main-sec {
+        height: 380px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer div {
+        margin-top: 50px;
+    }
+    footer iframe {
+        height: 325px;
+    }
+}
+@media screen and (max-width: 850px) {
+    #main-sec {
+        height: 350px;
+    }
+}
+@media screen and (max-width: 770px) {
+    #main-sec {
+        height: 330px;
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 700px) {
+    #main-sec {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #main-sec {
+        height: 280px;
+    }
+    footer div {
+        margin-top: 25px;
+    }
+    footer iframe {
+        height: 275px;
+        width: 90%;
+        margin: 5px 0 -2px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #main-sec {
+        height: 260px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #main-sec {
+        height: 240px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #main-sec {
+        height: 220px;
+    }
+}
+@media screen and (max-width: 450px) {
+    #main-sec {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #main-sec {
+        height: 180px;
+    }
+    footer iframe {
+        height: 275px;
+        width: 99%;
+    }
+    h4 {
+        font-size: 16px;
+        margin: 5px 0 10px;
+    }
+}
+@media screen and (max-width: 360px) {
+    #main-sec {
+        height: 160px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    #main-advert {
+        margin: 200px 0 0 700px;
+        max-width: 350px;
+    }
+    #main-advert h1 {
+        font-size: 32px;
+    }
+    #main-advert p {
+        font-size: 18px;
+    }
+    #two-btns a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1450px) {
+    #main-advert {
+        margin: 70px 0 0 670px;
+    }
+    nav img {
+        width: 90px;
+    }
+    nav {
+        padding: 10px 0;   
+    }
+}
+@media screen and (max-width: 1300px) {
+    #main-advert {
+        margin: 100px 0 0 620px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    #main-advert {
+        margin: 150px 0 0 500px;
+        max-width: 280px;
+    }
+    #main-advert h1 {
+        font-size: 24px;
+    }
+    #main-advert p {
+        font-size: 14px;
+    }
+    #two-btns a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    #services-section {
+        padding: 50px 100px;
+    }
+    #barbers {
+        width: 70%;
+        margin-top: -40px;
+    }
+    .barber-person p {
+        font-size: 26px;
+    }
+    .barber-person img {
+        height: 300px;
+    }
+    .story {
+        font-size: 16px !important;
+    }
+    .story2 {
+        font-size: 12px !important;
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 970px) {
+    #main-advert {
+        margin: 150px 0 0 470px;
+        max-width: 250px;
+    }
+    .nav-a {
+        margin: 45px 8px 0 8px;
+        font-size: 14px;
+    }
+    #book {
+        padding: 5px 10px;
+        font-weight: 400;
+        margin-left: 10px;
+    } 
+}
+@media screen and (max-width: 885px) {
+    #main-advert {
+        margin: 140px 0 0 420px;
+        max-width: 250px;
+    }
+    #main-advert h1 {
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    #main-advert p {
+        font-size: 12px;
+    }
+    #two-btns a {
+        padding: 4px 8px;
+        font-size: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        margin-right: 10px;
+    }
+    #services-section h2 {
+        font-size: 20px;
+    }
+    .indiv-price p {
+        font-size: 14px;
+    }
+    #barbers {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 785px) {
+    .story2 {
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 770px) {
+    #main-advert {
+        margin: 120px 0 0 350px;
+        max-width: 250px;
+    }
+    .pictures {
+        height: 400px;
+        margin: 0;
+    }
+    .pictures img {
+        height: 80%;
+    }
+}
+@media screen and (max-width: 670px) {
+    #main-advert {
+        margin: 110px 0 0 330px;
+        max-width: 250px;
+    }
+    #main-advert h1 {
+        font-size: 14px;
+    }
+    #main-advert p {
+        font-size: 10px;
+    }
+    #two-btns a {
+        font-size: 7px;
+        margin-right: 6px;
+    }
+    .hide-mid {
+        display: none;
+    }
+    nav img {
+        width: 65px;
+    }
+    #book {
+        padding: 5px 8px;
+        margin-left: 0;
+        font-size: 13px;
+    } 
+    #services-section {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 670px) {
+    #barbers {
+        flex-wrap: wrap;
+    }
+    .barber-person {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .story {
+        margin: -15px 0 0 0;
+    }
+    #barber-section h3 {
+        padding: 25px 0 50px;
+    }
+}
+@media screen and (max-width: 590px) {
+    #main-advert {
+        margin: 100px 0 0 290px;
+        max-width: 300px;
+    }
+    nav {
+        padding: 5px 0;
+    }
+    #services-section h2 {
+        font-size: 16px;
+    }
+    .indiv-price p {
+        font-size: 12px;
+    }
+    hr {
+        margin-top: -5px;
+    }
+}
+@media screen and (max-width: 538px) {
+    #main-advert {
+        margin: 100px 0 0 250px;
+        max-width: 800px;
+    }
+    #main-advert h1 {
+        font-size: 12px;
+    }
+    #main-advert p {
+        font-size: 8px;
+    }
+    #two-btns a {
+        font-size: 6px;
+        padding: 2px 5px;
+    }
+    .pictures {
+        height: 350px;
+    }
+    .pictures img {
+        height: 80%;
+    }
+}
+@media screen and (max-width: 460px) {
+    .hide-small {
+        display: none;
+    }
+    #main-advert {
+        margin: 80px 0 0 180px;
+    }
+    nav img {
+        width: 60px;
+    }
+    #book {
+        padding: 5px 8px;
+        margin-left: 0;
+        font-size: 12px;
+    } 
+    #services-section {
+        padding: 30px;
+    }
+    #services-section h2 {
+        font-size: 12px;
+    }
+    .indiv-price p {
+        font-size: 8px;
+    }
+    .pictures {
+        height: 250px;
+    }
+    .pictures img {
+        height: 78%;
+    }
+}
+@media screen and (max-width: 390px) {
+    #main-advert {
+        margin: 80px 0 0 180px;
+        max-width: 300px;
+    }
+    #main-advert h1 {
+        font-size: 10px;
+    }
+    #main-advert p {
+        font-size: 8px;
+    }
+    #two-btns a {
+        font-size: 5px;
+        padding: 2px 4px;
+    }
+}
+@media screen and (max-width: 360px) {
+    #main-advert {
+        margin: 40px 0 0 180px;
+    }
+}
+@media screen and (max-width: 340px) {
+    #main-advert {
+        margin: 40px 0 0 165px;
+    }
 }
