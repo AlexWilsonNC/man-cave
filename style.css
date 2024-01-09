@@ -593,6 +593,9 @@ h4 {
         margin-top: 5px;
         background-image: url("./assets/fade-small.png");
     }
+    nav {
+        justify-content: space-between;
+    }
     #main-advert {
         margin: 350px 0 0 200px !important;
     }
@@ -602,19 +605,21 @@ h4 {
     #services-section {
         padding: 20px;
     }
+    nav img {
+        width: 60px;
+        margin-left: 15px;
+    }
+    #book {
+        padding: 5px 8px;
+        margin-left: 0;
+        margin-right: 15px;
+        font-size: 12px;
+    } 
 }
 @media screen and (max-width: 460px) {
     .hide-small {
         display: none;
     }
-    nav img {
-        width: 60px;
-    }
-    #book {
-        padding: 5px 8px;
-        margin-left: 0;
-        font-size: 12px;
-    } 
     .pictures {
         height: 250px;
     }
