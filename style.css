@@ -475,7 +475,7 @@ h4 {
         margin-right: 10px;
     }
     #services-section h2 {
-        font-size: 20px;
+        font-size: 24px;
     }
     .indiv-price p {
         font-size: 14px;
@@ -559,12 +559,6 @@ h4 {
     nav {
         padding: 5px 0;
     }
-    #services-section h2 {
-        font-size: 16px;
-    }
-    .indiv-price p {
-        font-size: 12px;
-    }
     hr {
         margin-top: -5px;
     }
@@ -606,12 +600,6 @@ h4 {
     }
     #services-section {
         padding: 20px;
-    }
-    #services-section h2 {
-        font-size: 20px;
-    }
-    .indiv-price p {
-        font-size: 14px;
     }
 }
 @media screen and (max-width: 460px) {
