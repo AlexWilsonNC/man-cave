@@ -466,9 +466,6 @@ h4 {
         font-size: 20px;
         margin-bottom: -5px;
     }
-    #main-advert p {
-        font-size: 12px;
-    }
     #two-btns a {
         padding: 4px 8px;
         font-size: 10px;
@@ -511,12 +508,10 @@ h4 {
     #main-advert h1 {
         font-size: 14px;
     }
-    #main-advert p {
-        font-size: 10px;
-    }
     #two-btns a {
         font-size: 7px;
         margin-right: 6px;
+        padding: 5px;
     }
     .hide-mid {
         display: none;
@@ -532,8 +527,6 @@ h4 {
     #services-section {
         padding: 50px;
     }
-}
-@media screen and (max-width: 670px) {
     #barbers {
         flex-wrap: wrap;
     }
@@ -566,18 +559,11 @@ h4 {
 }
 @media screen and (max-width: 538px) {
     #main-advert {
-        margin: 100px 0 0 250px;
+        margin: 60px 0 0 250px;
         max-width: 800px;
     }
     #main-advert h1 {
-        font-size: 12px;
-    }
-    #main-advert p {
-        font-size: 8px;
-    }
-    #two-btns a {
-        font-size: 6px;
-        padding: 2px 5px;
+        font-size: 17px;
     }
     .pictures {
         height: 350px;
@@ -597,10 +583,10 @@ h4 {
         justify-content: space-between;
     }
     #main-advert {
-        margin: 350px 0 0 200px !important;
+        margin: 280px 0 0 200px !important;
     }
     #main-advert h1 {
-        font-size: 20px;
+        font-size: 21px;
     }
     #services-section {
         padding: 20px;
@@ -632,7 +618,7 @@ h4 {
         height: 400px;
     }
     #main-advert {
-        margin: 280px 0 0 180px !important;
+        margin: 200px 0 0 160px !important;
     }
     footer iframe {
         height: 275px;
@@ -648,6 +634,6 @@ h4 {
         height: 355px;
     }
     #main-advert {
-        margin: 220px 0 0 170px !important;
+        margin: 180px 0 0 160px !important;
     }
 }
