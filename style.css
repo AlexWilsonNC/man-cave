@@ -244,6 +244,16 @@ h4 {
     font-weight: 300;
     margin-top: 10px;
 }
+.veteran-owned {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -15px;
+}
+.veteran-owned img {
+    width: auto;
+    height: 65px;
+}
 
 @media screen and (max-width: 1850px) {
     #main-sec {
@@ -389,6 +399,9 @@ h4 {
         padding: 8px 12px;
         font-size: 14px;
     }
+    .veteran-owned img {
+        height: 55px;
+    }
 }
 @media screen and (max-width: 1450px) {
     #main-advert {
@@ -441,6 +454,10 @@ h4 {
         font-size: 12px !important;
         max-width: 300px;
     }
+    .veteran-owned img {
+        height: 45px;
+        margin-left: 3px;
+    }
 }
 @media screen and (max-width: 970px) {
     #main-advert {
@@ -463,7 +480,7 @@ h4 {
         max-width: 250px;
     }
     #main-advert h1 {
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: -5px;
     }
     #two-btns a {
@@ -502,11 +519,11 @@ h4 {
 }
 @media screen and (max-width: 670px) {
     #main-advert {
-        margin: 110px 0 0 330px;
+        margin: 90px 0 0 300px;
         max-width: 250px;
     }
     #main-advert h1 {
-        font-size: 14px;
+        font-size: 20px;
     }
     #two-btns a {
         font-size: 7px;
@@ -547,8 +564,8 @@ h4 {
 }
 @media screen and (max-width: 590px) {
     #main-advert {
-        margin: 100px 0 0 290px;
-        max-width: 300px;
+        margin: 100px 0 0 270px;
+        max-width: 350px;
     }
     nav {
         padding: 5px 0;
