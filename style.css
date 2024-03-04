@@ -76,7 +76,7 @@ nav img {
 #main-sec {
     height: 800px;
     margin-top: 5px;
-    background-image: url("./assets/fade.png");
+    background-image: url("./assets/header-img.png");
     background-size: contain;
     background-repeat: no-repeat;
     font-size: 26px;
@@ -618,7 +618,7 @@ h4 {
         height: 480px;
         width: 100%;
         margin-top: 5px;
-        background-image: url("./assets/fade-small.png");
+        background-image: url("./assets/lkj.png");
     }
     nav {
         justify-content: space-between;
