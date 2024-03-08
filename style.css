@@ -403,6 +403,9 @@ h4 {
     #main-sec {
         height: 240px;
     }
+    #seventdays {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 500px) {
     #main-sec {
