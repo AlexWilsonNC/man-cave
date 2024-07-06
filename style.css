@@ -148,9 +148,21 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 7px;
 }
 .indiv-price p {
     font-weight: 300;
+}
+.indiv-price-adtl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -25px;
+}
+.indiv-price-adtl p {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
 }
 
 .pictures {
@@ -625,6 +637,9 @@ h4 {
     .pictures p {
         font-size: 24px;
         max-width: 80%;
+    }
+    .indiv-price-adtl p {
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 538px) {
