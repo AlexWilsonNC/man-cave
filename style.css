@@ -214,6 +214,9 @@ hr {
 .barber-person img {
     height: 400px;
 }
+.transform {
+    transform: scale(0.9);
+}
 .story {
     font-size: 18px !important;
     font-style: italic;
