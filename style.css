@@ -215,7 +215,7 @@ hr {
     height: 400px;
 }
 .transform {
-    transform: scale(0.9);
+    transform: scale(0.5);
 }
 .story {
     font-size: 18px !important;
