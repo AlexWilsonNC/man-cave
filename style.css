@@ -213,9 +213,7 @@ hr {
 }
 .barber-person img {
     height: 400px;
-}
-.adrian {
-    transform: scale(0.9) !important;
+    width: 300px;
 }
 .story {
     font-size: 18px !important;
@@ -476,6 +474,7 @@ h4 {
     }
     .barber-person img {
         height: 300px;
+        width: auto;
     }
 }
 @media screen and (max-width: 1150px) {
