@@ -204,7 +204,7 @@ hr {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     margin-top: -50px;
 }
@@ -260,7 +260,7 @@ footer {
 .contact:hover {
     color: rgb(0, 170, 255);
 }
-.contact i {
+.contact span {
     margin-right: 15px;
 }
 .contact img {
@@ -301,6 +301,11 @@ h4 {
 .call-btn:hover {
     color: rgb(65, 65, 65);
     background-color: white;
+}
+.logoinfooter {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width: 1850px) {
@@ -353,7 +358,7 @@ h4 {
         font-size: 18px;
         margin-top: -1px; 
     }
-    .contact i {
+    .contact span {
         margin-right: 15px;
     }
     footer div p {
@@ -466,7 +471,6 @@ h4 {
         margin: 100px 0 0 620px;
     }
     #barbers {
-        width: 70%;
         margin-top: -40px;
     }
     .barber-person p {
