@@ -208,7 +208,8 @@ hr {
     margin: 0 auto;
     margin-top: -50px;
 }
-.barber-person p {
+.barber-person p,
+.barber-person2 p {
     font-size: 30px;
 }
 .barber-person img {
@@ -218,7 +219,7 @@ hr {
 .barber-person2 img {
     height: 380px;
     width: 300px;
-    margin-top: -25px;
+    margin-top: 22px;
 }
 .story {
     font-size: 18px !important;
@@ -478,7 +479,8 @@ h4 {
     #barbers {
         margin-top: -40px;
     }
-    .barber-person p {
+    .barber-person p,
+    .barber-person2 p {
         font-size: 26px;
     }
     .barber-person img {
@@ -488,7 +490,7 @@ h4 {
     .barber-person2 img {
         height: 280px;
         width: 223px;
-        margin-top: -10px;
+        /* margin-top: 20px; */
     }
 }
 @media screen and (max-width: 1150px) {
