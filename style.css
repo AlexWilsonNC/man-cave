@@ -285,13 +285,13 @@ section {
 .photo:after {
     content: "";
     position: absolute;
-    inset: 14px;
+    /* inset: 14px; */
     border: 1px solid #ffffff65;
     pointer-events: none
 }
 
 .intro-photo {
-    background-image: url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1100&q=85')
+    background-image: url('./assets/4.jpg')
 }
 
 .photo-tag {
@@ -509,7 +509,7 @@ section {
 }
 
 .about-photo {
-    background-image: url('https://images.unsplash.com/photo-1534297635766-a262cdcb8ee4?auto=format&fit=crop&w=1000&q=85');
+    background-image: url('./assets/travis-pic.png');
     min-height: 540px
 }
 
@@ -576,7 +576,7 @@ section {
     width: 100%;
     height: 390px;
     border: 0;
-    filter: grayscale(.6)
+    filter: grayscale(.3)
 }
 
 footer {
@@ -751,3 +751,11 @@ footer .wrap {
         margin-bottom: 0px
     }
 }
+
+/* Second barber profile */
+.barber-divider { text-align:center; padding-top:60px; color:#a24638; font:700 15px 'Barlow Condensed',sans-serif; letter-spacing:4px; }
+.second-barber { padding-top:75px; border-top:1px solid #d9cdbb; }
+.second-barber-grid { grid-template-columns:1.1fr .9fr; }
+.second-barber-photo { background:linear-gradient(145deg,#343d40,#161c1e); display:flex; align-items:center; justify-content:center; }
+.second-barber-photo::before { content:'PICTURE COMING SOON'; color:#d0ad76; font:700 28px 'Barlow Condensed',sans-serif; letter-spacing:3px; }
+@media(max-width:850px) { .second-barber-grid { grid-template-columns:1fr; } .second-barber-photo { order:0; } }
