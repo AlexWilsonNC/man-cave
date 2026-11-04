@@ -307,6 +307,13 @@ section {
     text-transform: uppercase
 }
 
+.about-dovie .photo-tag {
+    right: 0;
+    left: auto;
+    background-color: #243b59;
+    border-color: #243b59;
+}
+
 .services {
     background: #1b2225
 }
@@ -348,6 +355,7 @@ section {
     font: 700 27px 'Barlow Condensed';
     color: var(--gold)
 }
+
 .gold-text {
     color: var(--gold)
 }
@@ -368,6 +376,7 @@ section {
     align-items: center;
     padding: 25px 0;
 }
+
 .pictures img {
     opacity: 0.9;
     height: 100%;
@@ -513,6 +522,11 @@ section {
     min-height: 540px
 }
 
+.about-dovie {
+    background-image: url('./assets/dovie.png');
+    min-height: 540px
+}
+
 .about .eyebrow {
     color: #a24638
 }
@@ -603,6 +617,53 @@ footer .wrap {
         display: none
     }
 
+    #about .about-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+    gap: 0;
+}
+
+    #about .eyebrow {
+    margin-bottom: 10px;
+}
+
+#about h2 {
+    margin: 0 0 25px;
+}
+
+#about .about-quote {
+    margin: 0 0 20px;
+}
+
+    #about .about-content {
+        display: contents;
+    }
+
+    #about .eyebrow {
+        order: 1;
+    }
+
+    #about h2 {
+        order: 2;
+    }
+
+    #about .about-quote {
+        order: 3;
+    }
+
+    #about .about-photo {
+        order: 4;
+        width: 100%;
+        min-height: 420px;
+        margin: 15px 0 40px;
+    }
+
+    #about .about-description {
+        order: 5;
+    }
+
     .menu {
         display: block
     }
@@ -657,6 +718,47 @@ footer .wrap {
     .service-grid {
         gap: 0 25px
     }
+
+    #second-barber .about-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+    gap: 0;
+}
+
+#second-barber .second-barber-copy {
+    display: contents;
+}
+
+#second-barber .eyebrow {
+    order: 1;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#second-barber h2 {
+    order: 2;
+    margin: 0 0 25px;
+    text-align: left;
+}
+
+#second-barber .about-quote {
+    order: 3;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+#second-barber .about-dovie {
+    order: 4;
+    width: 100%;
+    min-height: 420px;
+    margin: 15px 0 40px;
+}
+
+#second-barber .about-description {
+    order: 5;
+}
 }
 
 @media(max-width:580px) {
@@ -753,9 +855,43 @@ footer .wrap {
 }
 
 /* Second barber profile */
-.barber-divider { text-align:center; padding-top:60px; color:#a24638; font:700 15px 'Barlow Condensed',sans-serif; letter-spacing:4px; }
-.second-barber { padding-top:75px; border-top:1px solid #d9cdbb; }
-.second-barber-grid { grid-template-columns:1.1fr .9fr; }
-.second-barber-photo { background:linear-gradient(145deg,#343d40,#161c1e); display:flex; align-items:center; justify-content:center; }
-.second-barber-photo::before { content:'PICTURE COMING SOON'; color:#d0ad76; font:700 28px 'Barlow Condensed',sans-serif; letter-spacing:3px; }
-@media(max-width:850px) { .second-barber-grid { grid-template-columns:1fr; } .second-barber-photo { order:0; } }
+.barber-divider {
+    text-align: center;
+    padding-top: 60px;
+    color: #a24638;
+    font: 700 15px 'Barlow Condensed', sans-serif;
+    letter-spacing: 4px;
+}
+
+.second-barber {
+    padding-top: 75px;
+    border-top: 1px solid #d9cdbb;
+}
+
+.second-barber-grid {
+    grid-template-columns: 1.1fr .9fr;
+}
+
+.second-barber-photo {
+    background: linear-gradient(145deg, #343d40, #161c1e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-barber-photo::before {
+    content: 'PICTURE COMING SOON';
+    color: #d0ad76;
+    font: 700 28px 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+
+@media(max-width:850px) {
+    .second-barber-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .second-barber-photo {
+        order: 0;
+    }
+}
